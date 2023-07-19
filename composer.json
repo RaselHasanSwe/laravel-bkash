@@ -1,0 +1,26 @@
+{
+    "name": "raselswe/bkash",
+    "description": "PHP and laravel package for accept bkash payment and refu\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dcomplete \u001b[D\u001b[C\u001b[D package for acceot bkash payment and refund.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasel Hasan",
+            "email": "rasel.laravel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RaselSwe\\Bkash\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaselSwe\\Bkash\\BkashServiceProvider"
+            ]
+        }
+    }
+}
