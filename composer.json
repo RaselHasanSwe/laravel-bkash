@@ -1,6 +1,6 @@
 {
     "name": "raselswe/bkash",
-    "description": "RaselSwe Bkash is payment getway to accpent and refund bkash payment in marchent account",
+    "description": "RaselSwe Bkash is payment gateway to accpent and refund bkash payment in marchent account",
     "keywords": ["Php", "laravel", "bkash", "bkash payment", "laravel bkash payment"],
     "type": "library",
     "license": "MIT",
@@ -12,7 +12,9 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {},
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "RaselSwe\\Bkash\\": "src/"

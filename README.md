@@ -8,7 +8,7 @@ and also refund payment to bkash account.
 - bkash payment and refund payment available in this package.
 
 
-## Installing Guzzle
+## Installing Bkash Payment
 
 The recommended way to install Bkash
 
