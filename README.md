@@ -27,14 +27,14 @@ publish raselswe/bkash vendor file. you will get bkash.php file in your config d
 
 ## Config .env or bkash.php file with required information
 
-BKASH_SENDBOX_BASE_URL = 'https://tokenized.*******'
-BKASH_LIVE_BASE_URL = 'https://tokenized.pay.*********'
-BKASH_USER_NAME = '****************'
-BKASH_PASSWORD = '******************'
-BKASH_APP_KEY = '******************'
-BKASH_APP_SECRET ='*************'
-BKASH_CALLBACK_URL = '**************'
-BKASH_PAYMENT_MODE = 'sendbox'  // in live mode set here 'live'
+BKASH_SENDBOX_BASE_URL = 'https://tokenized.*******' <br />
+BKASH_LIVE_BASE_URL = 'https://tokenized.pay.*********' <br />
+BKASH_USER_NAME = '****************'<br />
+BKASH_PASSWORD = '******************'<br />
+BKASH_APP_KEY = '******************'<br />
+BKASH_APP_SECRET ='*************'<br />
+BKASH_CALLBACK_URL = '**************'<br />
+BKASH_PAYMENT_MODE = 'sendbox'  // in live mode set here 'live'<br />
 
 
 ```php
